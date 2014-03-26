@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑"; color:#666;}
+a{color:#666; text-decoration:none; outline:none;}
+a:active{star:expression(this.onFocus=this.blur());} 
+img{border:0px;}
+a:link {text-decoration: none; outline:none;}
+a:visited{text-decoration: none; outline:none;}
+a:hover{text-decoration:none; color:#81AC30; outline:none;}
+ul, p, dl, dt, dd{padding:0px; margin:0px;}
+li{list-style-position:outside; list-style-type:none;}
+h1, h2, h3, h4, h5{font-size:14px; padding:0px; margin:0px;}
+h1{font-size:16px;}
+h5{font-size:12px;}
+.fl{float:left;}
+.fr{float:right;}
+.clear_f{clear:both; height:0px; padding:0px; margin:0px; display:block; _display:inherit;}
+.h10{height:10px; overflow:hidden; clear:both;}
+.h20{height:20px; overflow:hidden; clear:both;}
+.h50{height:50px; overflow:hidden; clear:both;}
+.w720{width:720px; overflow:hidden;}
+.w240{width:240px; overflow:hidden;}
+.w210{width:210px; overflow:hidden;}
+
+.wal{width:980px; margin:0px auto; overflow:hidden;}
+.black, .black a{color:#3C3C3C;}
+.black a:hover{color:#81AC30;}
+.pageBg{background:url(../image/pageBg.gif) top repeat-x; min-height:500px; _height:500px;}
+
+.headDiv{background:url(../image/headBg.png) top repeat-x; height:88px; width:100%; overflow:hidden; position:absolute; z-index:10; left:0px; top:0px;}
+.headDiv2{height:80px; overflow:hidden;}
+.headDiv .wal{height:88px; overflow:hidden; position:relative;}
+.headDiv .logo{position:absolute; left:25px; top:30px;}
+.topSearch{position:absolute; right:10px; top:7px; line-height:22px; background:url(../image/n01img152.gif) left top no-repeat;}
+.topSearch .input1{float:left; height:22px; line-height:22px; width:107px; padding:0 10px; border:0px; background:transparent;}
+.topSearch .btn1{float:left; height:22px; width:25px; cursor:pointer; border:0px; background:transparent;}
+.topSearch .fl{padding-left:12px;}
+.topSearch .fl a{padding:0 6px;}
+.nav{position:absolute; z-index:10; top:33px; right:-5px;}
+.nav li{float:left;}
+.nav a{display:block; float:left; font-size:14px; width:100px; height:48px; line-height:48px; text-align:center; overflow:hidden;}
+.nav a:hover, .nav .aNow{background:url(../image/navBg.png) center top no-repeat; color:#ABCD05;}
+.nav .aNow{font-weight:bold;}
+
+.footDiv{height:300px; overflow:hidden; background:#eee;}
+.footDiv .div0{text-align:center;}
+.footDiv .wal{width:660px; height:220px; padding-top:28px; overflow:hidden; position:relative; left:55px;}
+.footDiv li{float:left; width:165px; overflow:hidden;}
+.footDiv dd{padding-top:15px;}
+
+.tabContent{display:none;}
+
+.pageNum{height:75px; overflow:hidden; text-align:center; padding-top:15px;}
+.pageNum a{display:inline-block; margin:0 3px; height:19px; line-height:19px; overflow:hidden; padding:0 6px; border:#85be02 solid 1px; color:#83BD00;}
+.pageNum a:hover, .pageNum .aNow{color:#FFF; background:#85be02;}
+.pageNum span{display:inline-block; height:19px; line-height:19px; overflow:hidden; padding:0 12px;}
+.pageNum b{color:#85be02;}
+.pageNum2{text-align:right;}

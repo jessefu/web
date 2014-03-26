@@ -1,0 +1,247 @@
+.indexFlash{background:#e6eaeb url(../image/indexFlash.gif) bottom repeat-x; position:relative; height:560px; overflow:hidden;}
+.indexFlash .list li{height:440px; width:100%; overflow:hidden; position:absolute; z-index:1; left:0px; top:0px; display:none;}
+.indexFlash .list a{display:block; height:440px; overflow:hidden;}
+.indexFlash .btnDiv{position:absolute; z-index:10; left:0px; top:393px; width:100%; text-align:center;}
+.indexFlash .btnDiv span{display:inline-block; background:url(../image/btn1.png) center top no-repeat; width:18px; height:18px; overflow:hidden; cursor:pointer;}
+.indexFlash .btnDiv .spanNow{background:url(../image/btn2.png) center top no-repeat;}
+.indexFlash .contentDiv{position:absolute; z-index:2; left:0px; bottom:0px; width:100%;}
+.indexFlash .contentDiv .wal{height:177px; overflow:hidden; position:relative;}
+.indexFlash .btn{position:absolute; z-index:5; top:48px; left:12px;}
+.indexFlash .title{position:absolute; z-index:5; left:150px; top:90px; white-space:nowrap; font-size:26px;}
+.indexFlash .title b{font-size:30px;}
+.indexFlash .imgDiv{position:absolute; z-index:3; left:535px; top:0px;}
+.indexFlash .numDiv{position:absolute; z-index:5; right:30px; top:70px; width:275px; overflow:hidden; text-align:center;}
+.indexFlash .numDiv h1{height:30px; overflow:hidden;}
+.indexFlash .numDiv li{float:left; text-align:center; font-size:30px; background:url(../image/numBg.png) center top no-repeat; width:45px; height:66px; line-height:60px; overflow:hidden; text-align:center;}
+
+.indexPart1{padding-top:24px; height:292px; width:980px; overflow:hidden; position:relative;}
+.indexPart1 ul{width:110%;}
+.indexPart1 li{float:left; width:330px; height:270px; overflow:hidden; background:url(../image/indexPart2.png) left top no-repeat; position:relative;}
+.indexPart1 .imgDiv{position:absolute; z-index:10; left:30px; top:20px;}
+.indexPart1 h1{font-size:20px; padding-left:160px; height:135px; line-height:135px; overflow:hidden;}
+.indexPart1 dd{height:23px; line-height:23px; overflow:hidden; padding-left:39px;}
+
+.indexTitle{height:40px; overflow:hidden; position:relative;}
+.indexTitle h1{padding-left:28px; background:url(../image/ico1.gif) left center no-repeat;}
+.indexTitle .more{position:absolute; z-index:10; top:6px; right:0px;}
+/**/
+.indexPart2{width:537px; height:396px; overflow:hidden; position:relative;}
+.indexPart2 li{float:left; width:374px; padding-left:163px; height:111px; overflow:hidden; position:relative; background:url(../image/indexPart2.gif) left bottom no-repeat;}
+.indexPart2 .imgDiv{position:absolute; z-index:10; left:0px; top:0px;}
+.indexPart2 .time{padding:2px 0; font-size:14px;}
+.indexPart2 .content{line-height:1.8em;}
+/**/
+.indexPart3{width:370px; height:396px; overflow:hidden; position:relative; padding-left:38px; background:url(../image/indexPart3.gif) left top no-repeat;}
+.indexPart3 .indexTitle{left:9px;}
+.indexPart3 li{float:left; width:295px; height:77px; overflow:hidden; padding-left:75px; border-bottom:#eee solid 1px; position:relative;}
+.indexPart3 .time{background:url(../image/timeBg.gif) left top no-repeat; width:50px; height:50px; overflow:hidden; text-align:center; font-family:Arial; position:absolute; z-index:10; left:8px; top:15px; color:#878787; font-size:20px; font-weight:bold;}
+.indexPart3 .time div{color:#FFF; font-size:12px; padding:2px 0 4px 0;}
+.indexPart3 li h2{padding:12px 0 2px 0;}
+.indexPart3 .content{line-height:1.6em;}
+
+.ApplicationFlash{height:300px; overflow:hidden; position:relative;}
+.ApplicationFlash li{position:absolute; z-index:1; left:0px; top:0px; display:none;}
+.ApplicationFlash .btnDiv{position:absolute; z-index:10; bottom:10px; right:20px;}
+.ApplicationFlash .btnDiv span{display:inline-block; background:url(../image/btn5.png) center top no-repeat; width:18px; height:18px; overflow:hidden; cursor:pointer;}
+.ApplicationFlash .btnDiv .spanNow{background:url(../image/btn4.png) center top no-repeat;}
+
+.pageSearch{padding:13px 0 0 240px; height:45px; overflow:hidden; background:url(../image/n02img502.gif) 240px 13px no-repeat;}
+.pageSearch .input1{float:left; width:402px; height:32px; line-height:32px; padding:0 20px; border:0px; background:transparent;}
+.pageSearch .btn1{float:left; height:32px; width:60px; cursor:pointer; border:0px; background:transparent;}
+
+.pageTitle{height:43px; overflow:hidden; border-bottom:#abcd05 solid 4px; position:relative;}
+.pageTitle h1{line-height:42px; overflow:hidden; background:url(../image/ico1.gif) left center no-repeat; padding-left:29px;}
+.pageTitle .tab{position:absolute; z-index:10; top:20px; right:18px;}
+.pageTitle .tab li{float:left; cursor:pointer; width:20px; height:20px; overflow:hidden; background:url(../image/n02img12_2.gif) center top no-repeat;}
+.pageTitle .tab .liNow{background:url(../image/n02img12_3.gif) center top no-repeat;}
+.pageTitle .more{position:absolute; z-index:10; top:16px; right:18px;}
+
+.ApplicationPart1{width:720px; overflow:hidden; position:relative;}
+.ApplicationPart1 ul{width:110%;}
+.ApplicationPart1 li{float:left; width:95px; padding-right:10px; height:147px; overflow:hidden; text-align:center; color:#999;}
+.ApplicationPart1 .imgDiv{padding-top:16px; height:78px; overflow:hidden;}
+.ApplicationPart1 h5{font-weight:100; height:18px; overflow:hidden;}
+.ApplicationPart1 h5 a{color:#000;}
+.ApplicationPart1 h5 a:hover{color:#81AC30;}
+.ApplicationPart1 .msg{font-size:11px;}
+.ApplicationPart1 .btn{display:block; background:url(../image/n02imgbtn73.gif) left top no-repeat; width:73px; height:27px; line-height:26px; text-align:center; overflow:hidden; color:#FFF; margin:0 auto; display:none;}
+.ApplicationPart1 .liNow .msg{display:none;}
+.ApplicationPart1 .liNow .btn{display:block;}
+
+.Application2 .list{float:left; width:210px; height:485px; overflow:hidden; padding-right:44px; background:url(../image/Application2.gif) 210px 44px no-repeat;}
+.Application2 .title{height:27px; padding:15px 0 0 20px; overflow:hidden; border-bottom:#d5d5d5 solid 2px; background:url(../image/ico2.gif) 2px 22px no-repeat; color:#9BBB4E;}
+.Application2 .list3{padding:0px;}
+.Application2 .list2 .title{color:#1B86B4;}
+.Application2 .list3 .title{color:#EC7913;}
+.Application2 .listDiv{padding-top:10px;}
+.Application2 li{float:left; width:138px; height:77px; padding-left:72px; overflow:hidden; position:relative; border-bottom:#ccc dotted 1px;}
+.Application2 .imgDiv{position:absolute; z-index:10; left:0px; top:7px;}
+.Application2 .msg{color:#999; font-size:11px;}
+.Application2 h5{font-weight:100; padding:18px 0 5px 0;}
+.Application2 h5 a{color:#000;}
+.Application2 h5 a:hover{color:#81AC30;}
+
+.ApplicationClass{height:28px; line-height:28px; overflow:hidden; background:#eee; border:#dbdbea solid 1px; text-align:center; margin-bottom:34px;}
+.ApplicationClass a{padding:0 10px;}
+
+.ApplicationRank{min-height:200px; _height:200px; background:url(../image/ApplicationRankBg.gif) left bottom no-repeat; padding-bottom:9px;}
+.ApplicationRank a{color:#000;}
+.ApplicationRank a:hover{color:#81AC30;}
+.ApplicationRank .title{background:url(../image/ApplicationRankTitle.png) left top no-repeat; height:47px; line-height:47px; overflow:hidden; padding-left:42px;}
+.ApplicationRank .list{padding:0 11px; border-left:#e7e7e7 solid 1px; border-right:#e7e7e7 solid 1px; min-height:200px; _height:200px;}
+.ApplicationRank li{float:left; width:216px; height:46px; line-height:46px; position:relative; border-bottom:#ccc dotted 1px; overflow:hidden;}
+.ApplicationRank .num{position:absolute; z-index:10; left:1px; top:14px; background:url(../image/n02imgbg20_4.gif) left top no-repeat; width:20px; height:20px; line-height:20px; text-align:center; overflow:hidden; color:#FFF;}
+.ApplicationRank li h2{position:absolute; z-index:10; left:30px; top:0px; white-space:nowrap; font-weight:100;}
+.ApplicationRank .msg{position:absolute; z-index:10; right:6px; top:0px; white-space:nowrap;}
+.ApplicationRank .imgDiv{position:absolute; z-index:10; left:28px; top:14px;}
+.ApplicationRank .li_01 .num{background:url(../image/n02imgbg20_1.gif) left top no-repeat;}
+.ApplicationRank .li_02 .num{background:url(../image/n02imgbg20_2.gif) left top no-repeat;}
+.ApplicationRank .li_03 .num{background:url(../image/n02imgbg20_3.gif) left top no-repeat;}
+.ApplicationRank .liNow{height:95px; overflow:hidden;}
+.ApplicationRank .liNow h2{left:109px;}
+.ApplicationRank .liNow .msg{width:101px; overflow:hidden; top:22px;}
+.ApplicationRank .btn{display:block; background:url(../image/n02imgbg85.gif) left top no-repeat; width:85px; height:27px; line-height:27px; text-align:center; overflow:hidden; color:#FFF; position:absolute; z-index:10; left:109px; top:56px;}
+
+.classTab{background:url(../image/classTop.png) left top no-repeat; height:45px; overflow:hidden; position:relative;}
+.classTab h1{line-height:45px; position:absolute; z-index:10; left:25px; top:0px;}
+.classTab .tab{padding:11px 0 0 105px;}
+.classTab li{float:left; width:80px; height:23px; line-height:23px; overflow:hidden; text-align:center; cursor:pointer; font-size:14px;}
+.classTab .liNow{background:url(../image/tab.gif) center top no-repeat; color:#FFF;}
+.classB{background:url(../image/classB.png); height:31px; overflow:hidden;}
+.classList{background:#fff; min-height:20px; _height:20px; padding-left:25px;}
+.classList a{padding-right:24px;}
+
+.ApplicationList{width:720px; overflow:hidden; position:relative;}
+.ApplicationList ul{width:110%;}
+.ApplicationList li{float:left; width:370px; height:163px; overflow:hidden; position:relative; background:url(../image/ApplicationList.gif) left top no-repeat;}
+.ApplicationList .imgDiv{position:absolute; z-index:10; left:18px; top:12px;}
+.ApplicationList h2{padding:18px 0 0 100px;}
+.ApplicationList .content{width:226px; height:67px; overflow:hidden; padding:5px 0 0 100px; line-height:1.6em;}
+.ApplicationList .time{padding-left:100px;}
+.ApplicationList .btn{display:block; background:url(../image/n02imgbtn73.gif) left top no-repeat; width:73px; height:27px; line-height:27px; text-align:center; overflow:hidden; color:#FFF; position:absolute; z-index:10; left:15px; top:104px;}
+
+.ApplicationShow{height:275px; overflow:hidden; position:relative; border-bottom:#abcd05 solid 4px;}
+.ApplicationShow .imgDiv{position:absolute; z-index:10; left:0px; top:28px;}
+.ApplicationShow .ewm{position:absolute; z-index:10; right:0px; top:20px;}
+.ApplicationShow .title{font-size:26px; padding:22px 0 5px 95px;}
+.ApplicationShow .table{padding-left:95px; width:330px; height:125px; overflow:hidden;}
+.ApplicationShow td{width:50%; height:34px; font-size:14px;}
+.ApplicationShow .btnDiv{height:80px; overflow:hidden;}
+.ApplicationShow .btnDiv a{display:block; width:168px; height:57px; overflow:hidden; float:left;}
+.ApplicationShow .btnDiv .a1{background:url(../image/btn.png) -0px -0px no-repeat;}
+.ApplicationShow .btnDiv .a2{background:url(../image/btn.png) -168px -0px no-repeat;}
+.ApplicationShow .btnDiv .a3{background:url(../image/btn.png) -336px -0px no-repeat; width:178px;}
+
+.ApplicationTitle{color:#ABCD05; padding:15px 0 8px 0; border-bottom:#ccc dotted 1px;}
+.ApplicationShowPart1{line-height:1.8em; padding:10px 0 25px 0;}
+
+.ApplicationShowPart2{height:470px; overflow:hidden; position:relative;}
+.ApplicationShowPart2 .leftBtn{display:block; background:url(../image/leftBtn.gif) left top no-repeat; width:58px; height:58px; overflow:hidden; position:absolute; z-index:10; left:0px; top:190px;}
+.ApplicationShowPart2 .leftBtn:hover{background:url(../image/leftBtn1.gif) left top no-repeat;}
+.ApplicationShowPart2 .rightBtn{display:block; background:url(../image/rightBtn.gif) left top no-repeat; width:58px; height:58px; overflow:hidden; position:absolute; z-index:10; right:0px; top:190px;}
+.ApplicationShowPart2 .rightBtn:hover{background:url(../image/rightBtn1.gif) left top no-repeat;}
+.ApplicationShowPart2 .list{width:530px; overflow:hidden; margin:0 auto; padding-top:27px;}
+.ApplicationShowPart2 ul{width:2000%;}
+.ApplicationShowPart2 li{float:left; width:265px; overflow:hidden; text-align:center;}
+
+.ApplicationShowPart3{padding-top:10px;}
+.ApplicationShowPart3 li{min-height:70px; _height:70px; position:relative; padding:0 13px 0 90px;}
+.ApplicationShowPart3 .imgDiv{position:absolute; z-index:10; left:6px; top:5px;}
+.ApplicationShowPart3 .name{padding:9px 0 5px 0; border-bottom:#ccc dotted 1px; font-size:14px;}
+.ApplicationShowPart3 .name span{font-size:12px; position:absolute; z-index:10; top:9px; right:13px;}
+.ApplicationShowPart3 .content{line-height:1.8em; padding:8px 0;}
+
+.sideTitle{background:url(../image/sideNav.gif) left top no-repeat; height:37px; line-height:37px; overflow:hidden; font-size:18px; color:#FFF; padding-left:27px;}
+.sideNav{background:#f5f5f5 url(../image/sideNav1.gif) left bottom no-repeat; padding:5px 0 30px 0; min-height:100px; _height:100px;}
+.sideNav li{float:left; width:210px; overflow:hidden; padding-bottom:2px; background:url(../image/sideNav2.gif) bottom repeat-x;}
+.sideNav a{display:block; height:32px; line-height:32px; overflow:hidden; color:#333; padding-left:27px; font-size:14px; background:url(../image/sideNavIco1.gif) 5px center no-repeat;}
+.sideNav a:hover, .sideNav .aNow{background:url(../image/sideNav3.gif) 5px center no-repeat; color:#ABCC05;}
+.sideNav .aNow{font-weight:bold;}
+
+.pageNow{height:22px; overflow:hidden; border-bottom:#abcd05 solid 4px; padding-left:15px; font-family:"宋体"; padding:3px 0 0 15px; background:url(../image/pageNow.gif) left 6px no-repeat;}
+
+.mediaCenter{padding-top:6px;}
+.mediaCenter li{height:128px; padding:22px 0 22px 240px; border-bottom:#ccc dotted 1px; position:relative;}
+.mediaCenter .imgDiv{position:absolute; left:0px; top:22px;}
+.mediaCenter .name{height:30px; font-weight:100;}
+.mediaCenter .time{position:absolute; right:0px; top:29px;}
+.mediaCenter .content{line-height:1.8em;}
+
+.newShow{text-align:center; overflow:hidden;}
+.newShow .title{padding-top:26px; font-size:20px; color:#333; padding-bottom:12px;}
+.newShow .imgDiv{padding:45px 0;}
+.newShow .content{text-align:left; line-height:1.8em; padding-bottom:50px; background:url(../image/lmediaCenterShowBg.png) bottom center no-repeat;}
+.newShow .btn{padding-top:15px; background:url(../image/lbtnBg.gif) left center no-repeat; height:50px; line-height:34px; width:85px; margin:0px auto;}
+.newShow .btn a{color:#fff;}
+
+.video{padding:25px 0 0 0; overflow:hidden; margin-bottom:20px; min-height:200px; _height:200px; border-bottom:#ccc dotted 1px;}
+.video ul{width:130%;}
+.video li{width:320px; height:253px; float:left; background:url(../image/lvideoBg.png) left top no-repeat; position:relative; padding:0 85px 35px 0;}
+.video .imgDiv{padding:21px 0px 10px 0px; text-align:center;}
+.video .name{text-align:center;}
+.video .btn{display:block; position:absolute; top:21px; left:20px; z-index:10; background:url(../image/limg280.png) left top no-repeat; width:280px; height:186px; overflow:hidden;}
+
+.cooperation{padding-top:23px; width:720px; position:relative; overflow:hidden;}
+.cooperation ul{width:110%;}
+.cooperation li{height:122px; width:185px; float:left;}
+.cooperation .imgDiv{height:75px; overflow:hidden;}
+.cooperation img{border:#cecece solid 1px;}
+.cooperation .name{width:160px; text-align:center; font-weight:100;}
+
+.case .title{font-weight:100; font-size:20px; color:#333; height:46px; padding-top:27px;}
+.case .contentDiv{background:url(../image/lmediaCenterShowBg.png) center bottom no-repeat; min-height:242px; _height:242px; display:none;}
+.case .contentDiv .imgDiv{float:left; width:440px; overflow:hidden;}
+.case .content{width:280px; float:left; line-height:1.8em; overflow:hidden; text-align:justify; padding-bottom:22px;}
+.case .listDiv{padding:10px 0 0px 0px; height:165px; overflow:hidden; background:url(../image/lmediaCenterShowBg.png) center 140px no-repeat; position:relative;}
+.case .list{width:675px; overflow:hidden; margin:0 auto; position:relative;}
+.case ul{width:2000%;}
+.case li{float:left; width:135px; overflow:hidden; text-align:center;}
+.case li img{width:120px; height:90px; padding:5px;}
+.case .liNow img{padding:0px; border:#84ac26 solid 5px;}
+.case .name{padding-top:8px;}
+.case .leftBtn{display:block; background:url(../image/lleftBtn.gif) left top no-repeat; width:16px; height:32px; overflow:hidden; position:absolute; z-index:1; left:0px; top:42px;}
+.case .rightBtn{display:block; background:url(../image/lrightBtn.gif) left top no-repeat; width:16px; height:32px; overflow:hidden; position:absolute; z-index:1; right:0px; top:42px;}
+.case .leftBtn:hover{background:url(../image/lleftBtnHover.gif) left top no-repeat;}
+.case .rightBtn:Hover{background:url(../image/lrightBtnHover.gif) left top no-repeat;}
+
+.caseShow{text-align:center; overflow:hidden;}
+.caseShow .title{padding-top:27px; font-size:20px; color:#333; height:45px;}
+.caseShow .content{text-align:left; line-height:1.8em; padding:30px 0;}
+
+.down{padding-top:8px;}
+.down .name{padding:0px 0 0px 136px; border-bottom:#ccc dotted 1px; position:relative; font-size:16px; background:url(../image/lico1.gif) right center no-repeat; width:582px; height:53px; line-height:53px; overflow:hidden;}
+.down .green{position:absolute; top:0px; left:1px; color:#ABCC05; white-space:nowrap;}
+.down .time{position:absolute; right:62px; top:0px; font-size:12px;}
+.down .contentDiv{line-height:1.8em; font-size:12px; background:url(../image/lmediaCenterShowBg.png) bottom center no-repeat; padding:15px 0 25px 0; display:none;}
+.down .btn{padding:17px 0 0 0;}
+.down .btn a{display:block; background:url(../image/lbtnBg1.png) left top no-repeat; width:177px; height:51px; line-height:51px; overflow:hidden; text-align:center; font-size:14px;}
+.down .liNow .name{background:url(../image/lico2.gif) right center no-repeat;}
+.down .liNow .contentDiv{display:block;}
+
+.help{padding-top:27px;}
+.help li{padding-bottom:5px;}
+.help h2{color:#333; background:url(../image/lico3.gif) 7px 9px no-repeat; padding:10px 0 10px 38px; font-weight:100; border-bottom:#ccc dotted 1px;}
+.help .content{background:#f3f3f3 url(../image/lico4.gif) 9px 12px no-repeat; padding:10px 9px 10px 38px; line-height:1.8em; border-top:#FFF solid 5px;}
+.help .more{font-size:14px; color:#84AC26; display:block; width:110px; margin-top:10px; background:url(../image/lico5.gif) right center no-repeat;}
+.help .div1{display:none;}
+.help .liNow .div0{display:none;}
+.help .liNow .div1{display:block;}
+
+.feedback{padding-top:27px; overflow:hidden;}
+.feedback li{padding-left:115px; height:55px; line-height:28px; position:relative; overflow:hidden;}
+.feedback .name{position:absolute; white-space:nowrap; left:0px; top:0px; font-size:14px;}
+.feedback .li_01 input{position:relative; top:2px; left:-3px;}
+.feedback .li_02{height:229px;}
+.feedback textarea{width:470px; height:192px; border:#ccc solid 1px; padding:8px 0 0 10px; color:#666; font-size:12px;}
+.feedback .input1{padding:0 10px; height:28px; line-height:28px; width:280px; border:#ccc solid 1px; color:#666; float:left;}
+.feedback .btnDiv{padding:30px 0; text-align:center; border-top:#ccc dotted 1px;}
+.feedback .btn1{background:url(../image/lbtnBg1.gif); width:120px; height:32px; border:0px; color:#fff; font-size:14px; font-family:"微软雅黑";}
+
+.about{line-height:1.8em; padding:27px 0 50px 0;}
+
+.contact{padding:25px 0;}
+.contact .part1{width:310px; overflow:hidden; padding-bottom:20px;}
+.contact .imgDiv{padding-bottom:20px;}
+.contact .part2{border-top:#CCC dotted 1px; padding-top:25px;}
+.contact .content{padding:10px 0; line-height:1.8em;}
+
