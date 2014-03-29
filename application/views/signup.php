@@ -40,7 +40,7 @@
 
 
 <!--中部内容区 开始-->
-<div class="wrapper content">
+<div class="wrapper content">	
 	<div class="formList post">
         <div class="tips-error w230" style="width:255px;">两次输入的密码不一致</div>
     	<div class="item">
@@ -49,47 +49,44 @@
         	?>
         	<span class="label">帐号：</span>
         	<?php
-        	echo form_input('first_name',set_value('first_name','First_name'),'class="inp-txt"');
+        	echo form_input('username',set_value('username','用户名'),'class="inp-txt"');
             ?>
             <span style="color:red;">*</span>
         </div>
     	<div class="item">
+        	<span class="label">邮箱：</span>
+        	<?php
+        	echo form_input('email_address',set_value('email_address','test@test.com'),'class="inp-txt"');
+            ?>
+            <span style="color:red;">*</span>
+        </div>
+    	<div class="item">
+        
         	<span class="label">密码：</span>
             <?php
-        	echo form_input('password',set_value('password','Password'),'class="inp-txt"');
+        	echo form_input('password',set_value('password',''),'class="inp-txt"');
             ?>
             <span style="color:red;">*</span>
         </div>
         <div class="item">
         	<span class="label">确认密码：</span>
             <?php
-        	echo form_input('password2',set_value('password2','Password Confirmtion'),'class="inp-txt"');
+        	echo form_input('password2',set_value('password2',''),'class="inp-txt"');
             ?>
             <span style="color:red;">*</span>
         </div>
-        <div class="item">
-        	<span class="label">验证码：</span>
-            <input type="text" style="width:90px" class="inp-txt w60 fl mr10" id="authCode" name="authCode" value="" placeholder="请输入验证码" onkeyup="checkAuthCode()"/>
-            <span style="color:red;float:left;">*</span>
             
-            <input class="btn120" style="border:none;display:none;" id="btnGetAuthCode" value="获取短信验证码" type="button" />
-            <span id="validCodeContainer" style="visibility:hidden;display:none;">
-                        <img id="validCodeImg" style="cursor: pointer;width:80px; height:30px; float:left; margin-right:10px; " src="" alt="验证码" title="看不清,换一张"/> 
-                        <a style="display:block; width:14px; height:15px; background:url(/Content/default/images/refresh.png) no-repeat; float:left; text-indent:-9999px; 
-margin-top:7px;" id="refreshCode" href="#" title="看不清,换一张">刷新</a>
-                        </span>
-        </div>
-        <div class="item" id="GetAuthCodeTip" style="display:none;">
-            <span class="label"></span>
-            <span style="color:red;">如果没有收到短信验证码,可能是手机运营商服务不稳定造成的，请使用邮箱登录！</span>
-        </div>
+       
         <div class="item item-txt">
         	<input type="checkbox" id="chkAgree" name="chkAgree" checked/>
             <span>我同意并遵守<a href="http://portal.iuoooo.com/Service/Contract" target="_blank">《金和IU APP自助工厂平台服务协议》</a></span>
         </div>
         <div class="item">
-        	<a href="###" style="cursor:default;background:#687685" class="btn-big" id="btnRegister" onclick="return false">立即注册</a>
-        </div>
+        	<?php
+		echo form_submit('注册','Create Account');
+		?>
+	</div>
+		<?php echo validation_errors('<p class="erorr">'); ?>
         <div class="post-zj">
             <span >已有帐号，<a href="http://portal.iuoooo.com">直接登录</a></span>
             <a id="createApp" class="post-yy" href="http://bac.iuoooo.com/IndustryTemplate/index">直接创建App</a>
