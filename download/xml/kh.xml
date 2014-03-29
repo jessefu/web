@@ -1,0 +1,22 @@
+﻿<root version="201403040923" index="kh">
+	<item url="">
+		<name><![CDATA[     客户一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[   客户一的简介   ]]></description >
+	</item>
+	<item url="">
+		<name><![CDATA[     客户一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[   客户一的简介   ]]></description >
+	</item>
+	
+	<item url="">
+		<name><![CDATA[     客户一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[   客户一的简介   ]]></description >
+	</item>
+		
+</root>

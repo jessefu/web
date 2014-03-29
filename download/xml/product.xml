@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+    <imglist>
+        <img littlesrc="http://112.124.110.101/demo/dianshi1_small.png" bigsrc="http://112.124.110.101/demo/dianshi1_big.png" />
+        <img littlesrc="http://112.124.110.101/demo/dianshi1_small.png" bigsrc="http://112.124.110.101/demo/dianshi1_big.png" />
+        <img littlesrc="http://112.124.110.101/demo/dianshi1_small.png" bigsrc="http://112.124.110.101/demo/dianshi1_big.png"/>
+        <img littlesrc="http://112.124.110.101/demo/dianshi1_small.png" bigsrc="http://112.124.110.101/demo/dianshi1_big.png" />
+    </imglist>
+    
+    <description>
+    网络模式：联通3G（WCDMA），网络类型：双卡双模 主屏尺寸：5英寸 1920x1080像CPU型号：联发科 MT6592CPU频率：2048MHz 真八核
+    </description>
+</product>

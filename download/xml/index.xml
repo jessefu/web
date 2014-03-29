@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<index id="dayu" version="201403040923">
+	<pagelist>
+		<page name="首页" index = "home" version="201403040923"  >
+			<category name="公司简介" version="201403040923" index="company" url="http://112.124.110.101/demo/company.xml"/>
+			<category name="资质证明" version="201403040923" index="profile" url="http://112.124.110.101/demo/profile.xml"/>
+			<category name="新闻动态" version="201403040923" index="news" url="http://112.124.110.101/demo/news.xml"/>
+		</page>
+		<page name="产品" index = "productlist" version="201403040923"  >
+			<category name="智能系统" version="201403040923" index="znxt" url="http://112.124.110.101/demo/znxt.xml"/>
+			<category name="监控设备" version="201403040923" index="jksb"  url="http://112.124.110.101/demo/jksb.xml"/>
+			<category name="解决方案" version="201403040923" index="jjfa"   url="http://112.124.110.101/demo/jjfa.xml"/>
+			<category name="安防科技" version="201403040923" index="afkj"  url="http://112.124.110.101/demo/afkj.xml"/>
+		</page>
+		<page name="客户" index = "customers"  version="201403040923"   >
+			<category name="客户" version="201403040923" index="kh" url="http://112.124.110.101/demo/kh.xml"/>
+		</page>
+		<page name = "招聘" index = "jobs" version="201403040923" >
+		<category name ="招聘"   version="201403040923" index="zhaopin" url="http://112.124.110.101/demo/zhaopin.xml"/>
+		</page>
+		<page name="联系" index = "contacts" version="201403040923"  >
+			<category name="联系" version="201403040923" index="contact" url="http://112.124.110.101/demo/contact.xml"/>
+		</page>
+    </pagelist>
+</index>

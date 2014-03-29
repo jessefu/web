@@ -1,0 +1,39 @@
+﻿<root version="201403040923" index="profile">
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title ><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+			
+		</item>
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title ><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+		</item>
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title ><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+		</item>
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title ><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+		</item>
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title ><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+		</item>
+		<item url = "">
+			<thumb src=""/>
+			<img src = ""/>
+			<title><![CDATA[    新闻一  ]]></title>
+			<descrition><![CDATA[    新闻一的简介  ]]></descrition>
+		</item>
+</root>

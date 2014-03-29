@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productlist>
+	<category name=“电视”>
+	    <product name=“电视1”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	    <product name=“电视2”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	    <product name=“电视3”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	</category>
+	<category name=“手机”>
+	   <product name=“手机1”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	   <product name=“手机2”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	   <product name=“手机3”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	</category>
+	<category name=“空调”>
+	   <product name=“空调1”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	   <product name=“空调2”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	   <product name=“空调3”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>	
+	</category>
+	<category name=“洗衣机”>
+	    <product name=“洗衣机1”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+		<product name=“洗衣机2”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+		<product name=“洗衣机3”,img="http://112.124.110.101/demo/dianshi1.png",xml="http://112.124.110.101/demo/product.xml" , about="55s寸大屏", other=“”/>
+	</category>
+	
+</productlist>

@@ -1,0 +1,32 @@
+﻿<root version="201403040923" index="jjfa">
+	<item url="">
+		<name><![CDATA[    产品一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[    产品一的简介   ]]></description>
+	</item>
+	<item url="">
+		<name><![CDATA[    产品一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[    产品一的简介   ]]></description>
+	</item>
+	<item url="">
+		<name><![CDATA[    产品一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[    产品一的简介   ]]></description>
+	</item>
+	<item url="">
+		<name><![CDATA[    产品一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[    产品一的简介   ]]></description>
+	</item>
+	<item url="">
+		<name><![CDATA[    产品一  ]]></name>
+		<thumb src = "" />
+		<img src = "" />
+		<description><![CDATA[    产品一的简介   ]]></description>
+	</item>
+</root>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<home id="dayudemo" version="201403040923">
+    <img src="http://112.124.110.101/demo/company.png"/>
+    <about-user>  百度（Nasdaq简称：BIDU）是全球最大的中文搜索引擎，2000年1月由李彦宏、徐勇两人创立于北京中关村，致力于向人们提供“简单，可依赖”的信息获取方式。“百度”二字源于中国宋朝词人辛弃疾的《青玉案·元夕》词句“众里寻他千百度”，象征着百度对中文信息检索技术的执著追求。</about-user>
+    
+    <location>广东省深圳市南山区 南景苑</location>
+    
+    <newslist></newslist>
+   
+    <contact>
+        <phone>(+86)755-12345678</phone>
+        <mobile>(+86)13212345678</mobile>
+        <email>user@noexist.com</email>
+        <weibo>user@noexist.com</weibo>
+        <qq>12345678</qq>
+        <weixin>12345678</weixin>
+        <fax>(+86)755-12345678</fax>
+        <zonecode>518000</zonecode>
+    </contact> 
+    
+    <productlist>http://112.124.110.101/demo/productlist.xml</productlist> 
+    
+    <about-dayu>大鱼，大有可为 </about-dayu>
+</home>

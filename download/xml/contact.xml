@@ -1,0 +1,15 @@
+﻿<root version="201403040923" index="contact">
+   <address descriptiont="深圳市宝安区西乡平洲地铁口大鱼科技公司" location="123456"/>
+   <number id="518052"/>
+   <email id="demo@126.com"/>
+   <website id="www.baidu.com"/>
+   <telephones>
+      <phone id="0755-1234567" />
+      <phone id="0755-1234568" />
+   </telephones>
+   <item name="qq" id="1234567890" />
+   <item name="phone" id="1234567890" />   
+   <item name="sina_weibo" id="demo@163.com" />
+   <item name="wangwang" id="demo" />
+   <item name="laiwang" id="1234567890" />
+</root>
