@@ -6,7 +6,7 @@ class Login extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data['main_content'] = 'login_form';
-		//$this->load->view('includes/template',$data);
+	//	$this->load->view('includes/template',$data);
 		$this->load->view('login');
 		//echo "e";
 	}
@@ -37,7 +37,7 @@ class Login extends CI_Controller {
 	{
 		$this->load->helper('url');
 		$data['main_content'] = 'signup_form';
-		//$this->load->view('includes/template',$data);
+	//	$this->load->view('includes/template',$data);
 		$this->load->view('signup');
 	}
 

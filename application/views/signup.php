@@ -44,18 +44,27 @@
 	<div class="formList post">
         <div class="tips-error w230" style="width:255px;">两次输入的密码不一致</div>
     	<div class="item">
+    		<?php
+    		echo form_open('login/create_member');
+        	?>
         	<span class="label">帐号：</span>
-            <input type="text" name="LoginCode" id="LoginCode" class="inp-txt" placeholder="请输入手机号或邮箱" onblur='checkLoginCode("LoginCode")'/>
+        	<?php
+        	echo form_input('first_name',set_value('first_name','First_name'),'class="inp-txt"');
+            ?>
             <span style="color:red;">*</span>
         </div>
     	<div class="item">
         	<span class="label">密码：</span>
-            <input type="password" name="LoginPassword" id="LoginPassword" class="inp-txt" placeholder="请输入密码" onblur="checkPwd()"/>
+            <?php
+        	echo form_input('password',set_value('password','Password'),'class="inp-txt"');
+            ?>
             <span style="color:red;">*</span>
         </div>
         <div class="item">
         	<span class="label">确认密码：</span>
-            <input type="password" name="ConfirmPassword" id="ConfirmPassword" placeholder="请输入确认密码" class="inp-txt" onblur="checkCfmPwd()"/>
+            <?php
+        	echo form_input('password2',set_value('password2','Password Confirmtion'),'class="inp-txt"');
+            ?>
             <span style="color:red;">*</span>
         </div>
         <div class="item">

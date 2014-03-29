@@ -50,24 +50,37 @@
         </div>
     	<div class="login">
         	<h2 class="form-title">欢迎您 , 请登录</h2>
-            <div class="form-cnt">
-            	<div id="errorContainer" class="form-error">您输入的帐号或密码不正确！</div>
+        	<div id="login_form">
+            	
             	<div class="form-item">
-                	<label class="label" >帐号:</label>
-                    <input type="text" name="LoginCode" id="LoginCode" class="inp-txt" placeholder="请输入用户名、手机号或邮箱"/>
-                </div>
-                <div class="form-item">
-                	<label class="label" >密码:</label>
-                    <input type="password" name="LoginPassword" id="LoginPassword" class="inp-txt pass" placeholder="请输入密码"/>
-                </div>
-                <div class="form-item form-code">
-                    <label class="label" >验证码:</label>
-                    <input type="text" class="inp-txt" placeholder="验证码" id="validCode" name="validCode" value="" autocompletetype = disabled/>
-                    <span id="validCodeContainer" style="visibility:hidden">
-                        <img id="validCodeImg" style="cursor: pointer;" src="" alt="验证码" title="看不清,换一张"/> 
-                        <a id="refreshCode" href="#" title="看不清,换一张">刷新</a>
-                    </span>
-                </div>
+            		<?php
+							echo form_open('login/validate_credentials');
+						?>
+							</div>
+							<div class="form-item">
+								<label class="label" >帐号:</label>
+								<?php
+							echo form_input('username','Username','class="inp-txt pass"');
+							?>
+							</div>
+							<div class="form-item">
+								<label class="label" >密码:</label>
+							<?php
+							echo form_password('password','Password','class="inp-txt pass"');
+							?>
+							</div>
+							<div class="form-item">
+									<?php
+							echo form_submit('submit','Login');
+							?>
+							</div>
+							<div class="form-item">
+									<?php
+							echo anchor('login/signup','Create Account');
+							
+							?>
+							</div>
+					</div>
 				<div class="form-item form-txt">
                 	<span class="fl"><input type="checkbox" id="chkPwd" name="chkPwd" />记住密码</span>
                     <a href="http://cbc.iuoooo.com/RetrievePwd/Index" class="fr" target="_blank">忘记密码？</a>
