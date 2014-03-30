@@ -4,6 +4,7 @@ class Login extends CI_Controller {
 	
 	public function index()
 	{
+//		$this->output->enable_profiler(TRUE);
 		$this->load->database();
 		$this->load->helper('url');
 		$data['main_content'] = 'login_form';
@@ -14,6 +15,7 @@ class Login extends CI_Controller {
 
 	function validate_credentials()
 	{
+		$this->load->helper('url');
 		$this->load->model('membership_model');
 		$query = $this->membership_model->validate();
 
@@ -26,6 +28,8 @@ class Login extends CI_Controller {
 
 			$this->session->set_userdata($data);
 			redirect('site/member_area');
+			//$this->load->view(login);
+			
 		}
 
 		else 

@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>金和IU</title>
+        <title>大鱼---大有可为</title>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link href="css/foreground.css" rel="stylesheet">
@@ -26,13 +26,13 @@
 		        <div class="top"><a href="index.php/login">登录</a>&nbsp;|&nbsp;
                 <a href="index.php/login/signup">注册</a></div>
                 <div class="nav clearfix">
-                    <h1><a href="http://www.appmfl.com">金和IU</a></h1>
+                    <h1><a href="#nogo">大鱼</a></h1>
                     <ul class="main-nav">
-                        <li><a href="http://www.appmfl.com">首页</a></li>
-                        <li><a href="http://app.iuoooo.com/AppAssembly">IU市场</a></li>
-                        <li><a href="http://www.appmfl.com/?news.html">媒体中心</a></li>
-                        <li><a href="http://www.appmfl.com/?down.html">帮助中心</a></li>
-                        <li><a href="http://www.appmfl.com/?about.html">关于我们</a></li>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">IU市场</a></li>
+                        <li><a href="">媒体中心</a></li>
+                        <li><a href="">帮助中心</a></li>
+                        <li><a href="">关于我们</a></li>
                     </ul>
                 </div>
             </div>
@@ -94,54 +94,11 @@
 </div>
 <!--中部内容区 结束 -->
 
- <div class="footDiv black">
-        <div class="wal">
-            <ul>
-                <li>
-                    <h5><a href="http://app.iuoooo.com/AppAssembly" target="_blank">IU市场</a></h5>
-                    <dl>
-                        <dd><a href="http://app.iuoooo.com/AppAssembly/CategoryApps?Category=企业门户" target="_blank">企业门户</a></dd>
-                        <dd><a href="http://app.iuoooo.com/AppAssembly/CategoryApps?Category=都市报" target="_blank">都市报</a></dd>
-                        <dd><a href="http://app.iuoooo.com/AppAssembly/CategoryApps?Category=期刊" target="_blank">期刊</a></dd>
-                        <dd><a href="http://app.iuoooo.com/AppAssembly/CategoryApps?Category=自媒体" target="_blank">自媒体</a></dd>
-                        <dd><a href="http://app.iuoooo.com/AppAssembly/CategoryApps?Category=报纸" target="_blank">报纸</a></dd>
-                    </dl>
-                </li>
-                <li>
-                    <h5><a href="http://www.appmfl.com/?news.html" target="_blank">媒体中心</a></h5>
-                    <dl>
-                        <dd><a href="http://www.appmfl.com/?news/tp/207.html" target="_blank">媒体报道</a></dd>
-                        <dd><a href="http://www.appmfl.com/?video/tp/208.html" target="_blank">产品视频</a></dd>
-                        <dd><a href="http://www.appmfl.com/?partner/tp/209.html" target="_blank">合作伙伴</a></dd>
-                        <dd><a href="http://www.appmfl.com/?case/tp/210.html" target="_blank">案例方案</a></dd>
-                        <dd><a href="http://www.appmfl.com/?information/tp/211.html" target="_blank">资讯洞察</a></dd>
-                    </dl>
-                </li>
-                <li>
-                    <h5><a href="http://www.appmfl.com/?down.html" target="_blank">帮助中心</a></h5>
-                    <dl>
-                        <dd><a href="http://www.appmfl.com/?down/tp/212.html" target="_blank">相关下载</a></dd>
-                        <dd><a href="http://www.appmfl.com/?faq/tp/213.html" target="_blank">FAQ</a></dd>
-                        <dd><a href="http://www.appmfl.com/?popularize/tp/214.html" target="_blank">推广秘笈</a></dd>
-                        <dd><a href="http://www.appmfl.com/?lyb/tp/215.html" target="_blank">产品反馈</a></dd>
-                        
-                    </dl>
-                </li>
-                <li>
-                    <h5><a href="http://www.appmfl.com/?about.html" target="_blank">关于我们</a></h5>
-                    <dl>
-                        <dd><a href="http://www.appmfl.com/?contact/tp/217.html" target="_blank">联系我们</a></dd>
-                        <dd><a href="http://www.appmfl.com/?contact/tp/217.html" target="_blank">新浪微博</a></dd>
-                    </dl>
-                </li>
-            </ul>
-    </div>            
-</div>
 
         <!--底部 开始-->       
         <div class="footer" id="footer">
-	            <p><a href="http://www.jinher.com" target="_blank">关于金和</a><a href="/Service/Contract" target="_blank">服务协议</a>
-	            &copy;2014 Jinher 京ICP证09088703号-12</p>
+	            <p><a href="" target="_blank">关于大鱼</a><a href="/Service/Contract" target="_blank">服务协议</a>
+	            &copy;2014 大鱼 京ICP证090887031111号-12</p>
         </div>
         <!--footer 开始-->
 

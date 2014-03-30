@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>金和IU APP自助工厂</title>
+    <title>大鱼---大有可为</title>
     <link href="css/style.css" rel="stylesheet">
 
 	
@@ -22,11 +22,10 @@
             <div class="top">
                 <a href="index.php/login">登录</a>&nbsp;|&nbsp;<a href="index.php/login/signup">注册</a></div>
             <div class="nav clearfix">
-                <h1>
-                    <a href="#nogo">金和IU APP自助工厂</a></h1>
+                <h1><a href="#nogo">大鱼</a></h1>
                 <ul class="main-nav">
-                    <li><a href="http://www.appmfl.com/" class="current">首页</a></li>
-                    <li><a href="http://app.iuoooo.com/AppAssembly/Index">IU市场</a></li>
+                    <li><a href="index.php">首页</a></li>
+                    <li><a href="index.php">IU市场</a></li>
                     <li><a href="#nogo">媒体中心</a></li>
                     <li><a href="#nogo">帮助中心</a></li>
                     <li><a href="#nogo">关于我们</a></li>
@@ -79,7 +78,7 @@
        
         <div class="item item-txt">
         	<input type="checkbox" id="chkAgree" name="chkAgree" checked/>
-            <span>我同意并遵守<a href="http://portal.iuoooo.com/Service/Contract" target="_blank">《金和IU APP自助工厂平台服务协议》</a></span>
+            <span>我同意并遵守<a href="" target="_blank">《大鱼网络APP自助开发服务协议》</a></span>
         </div>
         <div class="item">
         	<?php
@@ -88,8 +87,8 @@
 	</div>
 		<?php echo validation_errors('<p class="erorr">'); ?>
         <div class="post-zj">
-            <span >已有帐号，<a href="http://portal.iuoooo.com">直接登录</a></span>
-            <a id="createApp" class="post-yy" href="http://bac.iuoooo.com/IndustryTemplate/index">直接创建App</a>
+            <span >已有帐号，<a href="">直接登录</a></span>
+            <a id="createApp" class="post-yy" href="">直接创建App</a>
         </div>
     </div>
 	
@@ -103,12 +102,12 @@
 
 
 		<script type="text/javascript">
-		document.domain = "iuoooo.com";
+		document.domain = "";
 	</script>
     </div>
     <div class="footer">
         <p>
-            <a href="#nogo">关于金和</a><a href="#nogo">服务协议</a>
+            <a href="#nogo">关于大鱼</a><a href="#nogo">服务协议</a>
         
             2011京ICP证09088703/京公网安备11010802010531</p>
     </div>
@@ -321,10 +320,10 @@
         var is_iPd = navigator.userAgent.match(/(iPad|iPod|iPhone)/i) != null;
         var is_mobi = navigator.userAgent.toLowerCase().match(/(ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|win ce)/i) != null;
         if (is_mobi && window.location.search.indexOf("mv=fp") < 0) {
-            $("#createApp").attr("href", "http://bac.iuoooo.com"+"/phone/app-business.html");
+            $("#createApp").attr("href", "");
         }
         else {
-            $("#createApp").attr("href", "http://bac.iuoooo.com" + "/IndustryTemplate/Index");
+            $("#createApp").attr("href", "");
         }
     }
 
@@ -427,7 +426,7 @@
                     else {
                         if (res.ContextDTO != null) {
                             //hideError();
-                            window.location = "http://portal.iuoooo.com" + "/Home/Index?userId=" + res.ContextDTO.LoginUserID + "&sessionId=" + res.ContextDTO.SessionID +
+                            window.location = "" + "/Home/Index?userId=" + res.ContextDTO.LoginUserID + "&sessionId=" + res.ContextDTO.SessionID +
 "&changeOrg=" + res.ContextDTO.LoginUserID;
                         }
                         else {

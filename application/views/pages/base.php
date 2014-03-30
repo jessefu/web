@@ -64,11 +64,11 @@
       </div>
       <div class="nav">
            <ul>
-             <li><a href="/">首页</a></li>
-             <li><a href="http://app.iuoooo.com/AppAssembly/Index">IU市场</a></li>
-             <li><a href="/?news.html">媒体中心</a></li>
-             <li><a href="/?faq/tp/213.html">帮助中心</a></li>
-             <li><a href="/?about.html">关于我们</a></li>
+             <li><a href="">首页</a></li>
+             <li><a href="">IU市场</a></li>
+             <li><a href="">媒体中心</a></li>
+             <li><a href="">帮助中心</a></li>
+             <li><a href="">关于我们</a></li>
            </ul>
       </div>
 </div>
@@ -101,7 +101,7 @@ $(function(){
 
 
 
-<div class="div0">Copyright © 2013 JinherSoftware. All Rights Reserved. 京ICP备09088703号-13 </div>
+<div class="div0">Copyright © 2014 DaYuNetwork. All Rights Reserved. 京ICP备0908870113号-13 </div>
 </div>
 
 <script type="text/javascript">
