@@ -109,7 +109,7 @@
         <p>
             <a href="#nogo">关于大鱼</a><a href="#nogo">服务协议</a>
         
-            2011京ICP证09088703/京公网安备11010802010531</p>
+            2014 大鱼网络  粤ICP备1402116</p>
     </div>
     
 <script src="/scripts/userInfo.js"></script>

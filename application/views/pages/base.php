@@ -85,6 +85,7 @@ $(function(){
         <ul id="ulaclick">
         	          <li><a href="" style="background:url(image/background1.jpg) center top no-repeat;"></a></li>
                    <li><a href="" style="background:url(image/background2.jpg) center top no-repeat;"></a></li>
+                   <li><a href="" style="background:url(image/background3.jpg) center top no-repeat;"></a></li>
                    </ul>
       </div>
       <div class="btnDiv">
@@ -101,7 +102,7 @@ $(function(){
 
 
 
-<div class="div0">Copyright © 2014 DaYuNetwork. All Rights Reserved. 京ICP备0908870113号-13 </div>
+<div class="div0">Copyright © 2014 DaYuNetwork. All Rights Reserved. 粤ICP备1402116 </div>
 </div>
 
 <script type="text/javascript">

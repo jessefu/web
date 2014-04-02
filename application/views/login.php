@@ -98,7 +98,7 @@
         <!--底部 开始-->       
         <div class="footer" id="footer">
 	            <p><a href="" target="_blank">关于大鱼</a><a href="/Service/Contract" target="_blank">服务协议</a>
-	            &copy;2014 大鱼 京ICP证090887031111号-12</p>
+	            &copy;2014 大鱼网络 粤CP备1402116</p>
         </div>
         <!--footer 开始-->
 
