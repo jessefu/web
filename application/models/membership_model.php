@@ -20,7 +20,7 @@ class Membership_model extends CI_Model {
 		return false;
 	}
 
-	function create_member()
+	function create_member()		
 	{
 		$new_member_insert_data = array(
 			'name' => $this->input->post('username'), 

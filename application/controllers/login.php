@@ -48,6 +48,7 @@ class Login extends CI_Controller {
 
 	function create_member()
 	{
+		$this->load->helper('url');
 		$this->load->library('form_validation');
 		//field name, error message, validation rules
 

@@ -9,9 +9,10 @@ class Site extends CI_Controller {
 
 	function member_area()
 	{
+		$this->load->helper('url');
 		$data['username'] =  $this->session->userdata('name');
-		$this->load->view('member_area', $data);
-		//$this->load-view('login');
+		//$this->load->view('personal', $data);
+		redirect('personalmanage');
 	}
 
 	function is_logged_in()
