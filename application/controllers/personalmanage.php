@@ -33,21 +33,38 @@ class Personalmanage extends CI_Controller {
 		else
 		{
 			$da = $this->do_upload();
+			
+			
 			$this->load->model('publisherinfo');
 			if($query = $this->publisherinfo->create_member($data, $da))
 			{
-				$this->index();
+				// create app :1.create tmpdir
+                                //2,copy demo source code
+                                //3,replace pics & others
+                                //4,create app
+
+                                $make_dir_command="/home/apptmp/test.sh {$data} > /home/apptmp/log.txt" ;  
+				exec($make_dir_command,$output,$return);
+				 if($return == 0){  
+                 			 echo "Build apk seccuss! <a href='http://112.124.110.101/download/{$data}-release.apk'>下载APK</a>";  
+              			}else{  
+                  			echo "<script>alert('Build apk fail!');history.go(-1);</script>";  
+              			}
+			//	shell_exec($make_dir_command);  			
+				//$this->index();
 			}	
 			else
 			{
-				$this->index();
+				//$this->index();
 			}	
 		}	
 	}
 
 	public function do_upload()
 	{
-		$config['upload_path'] = './uploads/';
+		$this->load->helper('url');
+		$config['upload_path'] = '/home/web/uploads/';
+	
 		$config['allowed_types'] = 'gif|jpg|png';
 		$config['max_size'] = '2097152';	//2M
 		$config['max_width']  = '1800';
@@ -64,6 +81,7 @@ class Personalmanage extends CI_Controller {
 		{
 		   //$data = array('upload_data' => $this->upload->data());
 		   $data = $this->upload->data();
+		   //echo $data['full_path'];
 
 		   return $data;
 		}

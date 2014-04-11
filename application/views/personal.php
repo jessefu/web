@@ -22,7 +22,7 @@
 <!--header 开始-->
 <div class="header" id="header">
 	<div class="bd">
-		<h1 class="logo"><a href="http://www.appmfl.com" title="金和IU">大鱼---大有可为</a></h1>
+		<h1 class="logo"><a href="">大鱼---大有可为</a></h1>
 		<ul>
 			<li class="name"><img id="userPhoto" src= "/image/defaulthead.png" width="35" height="35"><span id="userShowName">sz.twang@gmail.com</span></li>
             <li id="currentOrgName">当前：<span id="currentOrgText">个人后台</span><span id="currentOrgArrow"></span></li>
